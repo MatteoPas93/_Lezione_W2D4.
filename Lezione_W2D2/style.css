@@ -1,0 +1,335 @@
+body {
+  margin: 5%;
+}
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h4,
+h5,
+h6,
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.nav {
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid rgb(195, 193, 193);
+}
+
+.logo img {
+  width: 60%;
+}
+
+#navbar {
+  max-width: 20px;
+  min-width: 15px;
+  margin-inline: 1%;
+}
+
+.icone-nav {
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  display: flex;
+  border-bottom: 0px;
+}
+
+.icone-nav img {
+  opacity: 0.6;
+}
+
+.navbar2 {
+  max-width: 20px;
+  min-width: 15px;
+  margin-inline: 1.5%;
+}
+
+#utente {
+  opacity: 1;
+  max-width: 35px;
+  min-width: 20px;
+}
+
+.text {
+  border-radius: 50px;
+  size: 5px;
+  margin-inline: 2%;
+  text-align: center;
+  padding: 7px 15px;
+}
+
+.contenitore-principale {
+  display: flex;
+}
+
+.contenitore-sx {
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid rgb(195, 193, 193);
+  margin-right: 10%;
+}
+
+.contenitore-dx {
+  display: flex;
+  flex-direction: column;
+}
+
+.h5 {
+  margin-top: 10%;
+  display: flex;
+  width: 78%;
+  border-bottom: 1px solid rgb(195, 193, 193);
+  margin-left: 4%;
+}
+
+#grigio button {
+  border: none;
+  background-color: white;
+}
+
+#nero {
+  margin-left: 2%;
+}
+
+#grigio {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.recommended {
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(0, 0, 0);
+  border-bottom: 3px solid black;
+}
+
+.utenti {
+  width: 20px;
+  object-fit: cover;
+  margin-left: 100%;
+}
+
+.card {
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+  margin: 20px;
+}
+
+.icone-menu {
+  display: flex;
+  justify-content: flex-end;
+  margin-inline: 2%;
+}
+
+.icone-menu img {
+  width: 3%;
+  margin-inline: 5px;
+}
+
+h6,
+h3 {
+  margin: 5px;
+}
+
+h5 {
+  color: grey;
+}
+
+.data {
+  color: grey;
+  margin-right: 30px;
+}
+
+.data button {
+  border-radius: 50px;
+  border: none;
+}
+
+.articolo1 {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 5px;
+  row-gap: 5%;
+  flex-direction: column;
+}
+.articolo1 img {
+  object-fit: cover;
+}
+
+.logo-medium-twitter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-right: 28px;
+}
+
+#add {
+  padding-right: 6px;
+  opacity: 0.6;
+
+}
+
+.logo-medium-twitter img {
+  width: 5%;
+  padding: 2px;
+}
+
+#logo2 {
+  width: 60px;
+  padding: 0;
+}
+
+.nome {
+  margin-left: 25px;
+}
+
+img {
+  width: 150px;
+}
+
+.bottone-twitter {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bottone-twitter button {
+  border-radius: 50px;
+  background-color: white;
+  display: flex;
+  border-color: #bcbbbb;
+  width: 60%;
+  align-items: center;
+  margin-top: 20px;
+  padding: 8px 30px;
+}
+
+.bottone-twitter img {
+  width: 15%;
+  padding-left: 20px;
+}
+
+.follow-twitter {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.follow-twitter h4 {
+  margin-block: 2px;
+}
+
+.later {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid rgb(182, 182, 182);
+}
+.topic {
+  margin-top: 10%;
+}
+
+.bottoni-dx button {
+  border-radius: 50px;
+  border: none;
+  margin-inline: 5px;
+  margin-block: 7px;
+}
+
+.bottoni-dx {
+  margin-bottom: 20%;
+}
+
+.card-utenti {
+  display: flex;
+  margin-top: 10%;
+  justify-content: space-evenly;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.tre-utenti img {
+  width: 45px;
+}
+
+.tre-utenti {
+  margin-top: 0%;
+}
+
+.spazio-follow {
+  padding-right: 57px;
+}
+
+.spazio-follow2 {
+  padding-right: 16px;
+}
+
+.messaggi-utenti {
+  padding-right: 18px;
+}
+
+.messaggi-utenti h4 {
+  margin-block: 0%;
+}
+
+.messaggi-utenti h6 {
+  color: grey;
+}
+
+.bottoni-finali button {
+  display: flex;
+  border-radius: 50px;
+  padding: 10px 20px;
+}
+
+.contenitore-utenti {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20%;
+  margin-top: 10%;
+}
+
+.contenitore-finale {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.card2 {
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.autore2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.autore2 img {
+  margin-left: 20%;
+}
+
+.info-utente .nome {
+  margin-left: 4%;
+}
+
+.info-utente .nome2 {
+  margin-left: 8%;
+}
+
+.see-all p {
+  color: green;
+  margin-bottom: 30%;
+  margin-top: 0;
+}
+
+button {
+  cursor: pointer;
+}
